@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <title>Password Generator</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Random Password Generator</h1>
+    <h2>Password Settings</h2>
+    <label>
+      Password Length:
+      <input type="number" id="length">
+    </label>
+    <label>
+      <input type="checkbox" id="uppercase">
+      Include Uppercase
+    </label>
+    <label>
+      <input type="checkbox" id="lowercase">
+      Include Lowercase
+    </label>
+    <label>
+      <input type="checkbox" id="numbers">
+      Include Numbers
+    </label>
+    <label>
+      <input type="checkbox" id="symbols">
+      Include Symbols
+    </label>
+    <div>
+      <button id="generate">Generate Password</button>
+      <button id="copy">Copy to Clipboard</button>
+    </div>
+    <div class="strength" id="strength"></div>
+    <div class="password" id="password"></div>
+
+    
+
+    <h3>Password History</h3>
+    <div class="history" id="history"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

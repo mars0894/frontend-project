@@ -1,0 +1,28 @@
+* {
+    padding-top: 3px;
+  }
+  
+  body {
+    font-family: Corbel;
+  
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+  }
+  
+  input[type="text"] {
+    width: 300px;
+  }
+  
+  .password {
+    font-weight: bold;
+  }
